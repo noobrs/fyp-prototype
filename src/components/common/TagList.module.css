@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag,
+.outline {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tag {
+  background: rgba(36, 88, 255, 0.1);
+  color: var(--color-primary);
+}
+
+.outline {
+  border: 1px dashed rgba(36, 88, 255, 0.3);
+  color: var(--color-muted);
+  background: rgba(255, 255, 255, 0.8);
+}
