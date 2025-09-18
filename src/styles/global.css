@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+  --color-background: #f5f7fb;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f0f4ff;
+  --color-primary: #2458ff;
+  --color-primary-dark: #1736b6;
+  --color-accent: #ff8a65;
+  --color-success: #32c48d;
+  --color-warning: #ffb648;
+  --color-danger: #ff5c5c;
+  --color-text: #0d1a2d;
+  --color-muted: #647089;
+  --color-border: rgba(100, 112, 137, 0.18);
+  --shadow-soft: 0 12px 30px rgba(13, 26, 45, 0.08);
+  --shadow-strong: 0 20px 40px rgba(13, 26, 45, 0.16);
+  --radius-large: 18px;
+  --radius-medium: 14px;
+  --radius-small: 10px;
+  --font-sans: 'Inter', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-background);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(36, 88, 255, 0.25);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

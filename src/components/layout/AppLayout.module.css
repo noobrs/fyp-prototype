@@ -1,0 +1,17 @@
+.shell {
+  min-height: 100vh;
+  background: radial-gradient(circle at top right, rgba(36, 88, 255, 0.18), transparent 40%),
+    var(--color-background);
+}
+
+.main {
+  padding: 0 32px 48px;
+  display: grid;
+  gap: 32px;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    padding: 0 20px 40px;
+  }
+}

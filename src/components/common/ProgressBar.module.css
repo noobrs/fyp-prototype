@@ -1,0 +1,39 @@
+.wrapper {
+  display: grid;
+  gap: 6px;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.track {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(13, 26, 45, 0.08);
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.primary {
+  background: linear-gradient(135deg, #2458ff, #49b6ff);
+}
+
+.success {
+  background: linear-gradient(135deg, #32c48d, #77e2b6);
+}
+
+.warning {
+  background: linear-gradient(135deg, #ffb648, #ffd37b);
+}
